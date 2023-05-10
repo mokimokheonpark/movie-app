@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #2f4858;
+    color: #fff;
+    padding: 16px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.movies-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.movies-container > div {
+    background-color: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+    width: 300px;
+}
+
+.movies-container > div:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.movies-container img {
+    width: 100%;
+    height: auto;
+}
+
+.movies-container h2 {
+    margin: 8px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.movies-container a {
+    color: #000;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+.movies-container a:hover {
+    color: #2f4858;
+}
+
+.movie-data-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    overflow: hidden;
+    transition: all 0.2s ease-in-out;
+    width: 80%;
+    max-width: 800px;
+}
+  
+.movie-data-container img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-bottom: 20px;
+}
+  
+.movie-data-container h2 {
+    font-size: 32px;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.movie-data-container p {
+    font-size: 18px;
+    margin: 0;
+    text-align: justify;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+  
+.movie-data-container ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.movie-data-container li {
+    margin: 0 10px;
+    font-size: 18px;
+    padding: 5px 10px;
+    background-color: #2f4858;
+    color: #fff;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+  
+@media (max-width: 768px) {
+    .movie-data-container {
+      width: 90%;
+    }
+  
+    .movie-data-container img {
+      max-width: 100%;
+    }
+}
