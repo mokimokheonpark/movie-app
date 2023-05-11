@@ -16,8 +16,6 @@ function Description() {
         getMovie();
     }, []);
 
-    console.log(movie.genres)
-
     return (
         <div class="movie-data-container">
             <MovieData
