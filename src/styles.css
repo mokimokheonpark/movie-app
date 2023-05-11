@@ -29,7 +29,8 @@ header h1 {
     border-radius: 4px;
     overflow: hidden;
     transition: all 0.2s ease-in-out;
-    width: 300px;
+    width: calc((100% - 64px) / 6);
+    margin-bottom: 16px;
 }
 
 .movies-container > div:hover {
@@ -117,10 +118,14 @@ header h1 {
   
 @media (max-width: 768px) {
     .movie-data-container {
-      width: 90%;
+        width: 90%;
     }
-  
+
     .movie-data-container img {
-      max-width: 100%;
+        max-width: 100%;
+    }
+
+    .movies-container > div {
+        width: calc((100% - 32px) / 2);
     }
 }
