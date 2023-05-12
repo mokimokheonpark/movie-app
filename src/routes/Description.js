@@ -26,6 +26,7 @@ function Description() {
                 image={movie.large_cover_image}
                 description={movie.description_full}
                 genres={movie.genres}
+                rating={movie.rating}
             />
         </div>
     );
