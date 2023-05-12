@@ -1,6 +1,13 @@
 # Movie App
 
-This project is a simple React-based web application that displays a list of high-rating movies and their information.
+This project is a simple web application built with React that displays a list of high-rated movies and their information.
+
+## Features
+
+- Create-React-App was used to set up the web application.
+- The YTS.MX API was used to obtain movie data.
+- Displays a list of not-fixed twenty high-rated movies with ratings over 9.0.
+- Provides information such as year, description, genres, and ratings for each movie.
 
 ## Demo
 
@@ -8,7 +15,7 @@ A live demo of the project is available at https://mokimokheonpark.github.io/mov
 
 ## Installation
 
-To install and run the project, you'll need to have Node.js and npm (Node Package Manager) installed on your local machine. Once you have these installed, follow these steps:
+To install and run the project, you need to have Node.js and npm (Node Package Manager) installed on your local machine. Once you have these installed, follow these steps:
 
 1. Clone the repository: git clone https://github.com/mokimokheonpark/movie-app.git
 2. Navigate to the project directory: cd movie-app
